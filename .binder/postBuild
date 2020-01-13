@@ -5,7 +5,7 @@ mv .binder/streamlit_call.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 # enable streamlit extension
 jupyter serverextension enable --sys-prefix streamlit_call
 git clone https://github.com/sbunzel/why.git
-mkdir data
-mkdir data/raw
-mv carInsurance_test.csv data/raw
-mv carInsurance_train.csv data/raw
+mkdir why/data
+mkdir why/data/raw
+mv carInsurance_test.csv why/data/raw
+mv carInsurance_train.csv why/data/raw
